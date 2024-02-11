@@ -1,16 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&family=Spectral&display=swap');
+
+
+.logo {
+    padding-top: 5px;
+
+}
+body {
+    background-color: lightblue;
+    color: black;
+    font-family: "Protest Revolution", "Protest Riot", "Spectral";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: greenyellow;
+    font-family: "Protest Revolution", "Protest Riot", "Spectral";
+}
+h2 {
+    margin: 0;
+
+}
 div {
     max-width: 1600px;
     margin: 0 auto;
 }  
 
 .home-title {
-    color:gold
+    color:black;
+    font-size: 55px;
+    font-family: "Protest Revolution", "Protest Riot", "Spectral";
+    margin-top: 10px;
 }
 h4 {
     color:darkorange;
 }
 nav a {
     text-align: center;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -21,21 +48,15 @@ nav a {
 main section {
     text-align: center;
 }
-
+main section img {
+    box-sizing: boarder-box;
+}
 
 #background {
     height: 725px;
     background-color: yellow;
 }
 
-
-body {
-    background-color: lightblue;
-    color: black;
-}
-header {
-    background-color: greenyellow;
-}
 Nav a:hover {
     background-color: lightgreen;
     
@@ -44,22 +65,38 @@ Nav a:hover {
 .book, .join {
     background-color: rgba(57, 88, 230, 0.438);
     Color: Black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: chartreuse;
     color: black;
 }
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
 .msg {
     background-color: rgb(39, 39, 163);
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color:rgb(132, 134, 17);
 }
 .msg p {
     color:lightsalmon;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
-    background-color: yellow; 
+    background-color: yellow;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color:rgb(224, 24, 24);
@@ -82,10 +119,14 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+.social {
+    padding-top: 15px;
+}
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
-    width: 100%;
+    width: 100%;
 }
