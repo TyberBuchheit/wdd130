@@ -39,7 +39,7 @@ a {
 
 .header-main-nav {
     height: 100%;
-    width: 75%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -118,6 +118,10 @@ h1 {
     transform: scale(1.1);
 }
 
+
+h2:hover {
+    background-color: #C5903B;
+}
 .container2 {
     background-color: #7E91AF;
     color: #ffffff;
@@ -139,12 +143,9 @@ h1 {
 .fishhook-text a {
     text-decoration: none;
 }
-.button-box {
-
-}
 
 .contact-us:hover {
-    background-color: chartreuse;
+    background-color: #088873;
     color: black;
 }
 
@@ -155,17 +156,18 @@ footer {
     line-height: 32px;
     display: flex;
     height: 150px;
+    justify-content: space-between;
 }
-
-footer p {
-    padding: 25px;
+.footer-main-links {
+    display: flex;
+    column-gap: 20px;
+    padding-left: 30px;
+    align-items: center;
 }
-
-footer p a {
-    font-size: medium;
-}
-
-.social a {
-    align-content: center;
+.social {
+    display: flex;
+    align-items: center;
     text-decoration: none;
+    column-gap: 10px;
+    padding-right: 30px;
 }
