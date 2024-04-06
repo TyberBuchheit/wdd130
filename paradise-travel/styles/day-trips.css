@@ -24,7 +24,7 @@
 .day-trips-container2 {
     background-color: #AE5B3B;
     color: #000000;
-    height: 4000px;
+    height: 3800px;
     padding: 30px;
 }
 
@@ -39,62 +39,10 @@
     object-fit: cover;
 }
 
-.volcan {
+.volcan, .pastores, .obispo, .market, .pana, .ruins, .cayala, .hobbit {
     display: flex;
     justify-content: space-between;
     text-align: center;
     margin: 50px 50px;
-}
-
-.pastores {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin: 50px 50px;
-}
-
-.obispo {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin: 50px 50px;
-}
-
-.market {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin: 50px 50px;
-}
-
-.pana {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin: 50px 50px;
-}
-
-.ruins {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin: 50px 50px;
-}
-
-.cayala {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin: 50px 50px;
-}
-
-.hobbit {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin: 50px 50px;
-}
-
-.volcan-text, .pastores-text, .obispo-text, .market-text, .pana-text, .ruins-text, .cayala-text, .hobbit-text {
-    padding-top: 100px;
+    align-items: center;
 }

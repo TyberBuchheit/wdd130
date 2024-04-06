@@ -10,7 +10,6 @@ a {
     font-size: 26px;
     line-height: 32px;
     color: #440D0A;
-    /* font-family: ; */
     cursor: pointer;
 }
 
@@ -84,4 +83,4 @@ footer {
     text-decoration: none;
     column-gap: 10px;
     padding-right: 30px;
-} 
+}
